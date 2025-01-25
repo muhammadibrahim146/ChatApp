@@ -41,9 +41,9 @@ setUser({username:" " , email:" " , password:" "})
 
       }}>
         <div className='flex justify-around flex-wrap  '>
-       <h1 className='lg:text-7xl  text-4xl font-serif font-extrabold w-[300px] lg:w-[400px]  lg:mt-[100px]  md:mt-[60px] md:ml-[-50px] text-center'>Welcome to Online Chat App</h1>
+       <h1 className='lg:text-7xl  text-4xl font-serif font-extrabold w-[300px] lg:w-[400px]  lg:mt-[100px]  md:mt-[60px] md:ml-[-50px] text-center'>Welcome to Online Chat Application</h1>
        <div className='flex justify-center mt-2  lg:mt-[100px] md:mt-[60px]'>
-      <div className='bg-slate-100 w-[300px] h-[320px] md:h-[350px] border px-4 py-4' >
+      <div className='bg-slate-100 w-[300px]   h-[360px] md:h-[350px] border px-4 py-4' >
       <h1 className='text-center item-center text-2xl text-black font-bold'>{currset}</h1>
       <form className='flex justify-center flex-col ' onSubmit={handleform}>
         

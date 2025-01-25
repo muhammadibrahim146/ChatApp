@@ -22,7 +22,7 @@ useEffect(()=>{
     <>
     
     {loading?
-    <h1 className='text-center text-3xl text-black mt-[200px]'>Loading Your Chats....</h1>:
+    <h1 className='text-center text-3xl text-black mt-[200px]' st>Loading Your Chats....</h1>:
 
     <div  className="w-full h-screen flex"style={{backgroundColor:"white"}}>
       <Left/>

@@ -70,11 +70,13 @@ if(userprofile.bio){
   return (
   <>
   <ToastContainer/>
-<div className='w-full h-screen' style={{backgroundImage:`url(${socialbg})`, backgroundSize:"cover"}}>
+<div className='w-full h-screen' style={{backgroundImage:`url("https://img.freepik.com/free-vector/vector-social-contact-seamless-pattern-white-blue_1284-41919.jpg?t=st=1737650610~exp=1737654210~hmac=4c50a83611971bd4317f23c46ba85dd734a2c89504947910096e67225be1afa2&w=826")`,
+      backgroundSize:"cover",
+}}>
 <div className="flex justify-center items-center h-[500px]">
-  {/* Profile Card */}
+
   <div className="w-[600px] bg-white rounded-lg shadow-lg p-6">
-    {/* Title */}
+  
     <h1 className="text-center text-2xl font-bold mb-6">Profile Details</h1>
 <form onSubmit={handlesubmit}>
     {/* Upload Image Section */}
